@@ -14,4 +14,4 @@ def build(bld):
   # obj.cxxflags = ["-g", "-D_FILE_OFFSET_BITS=64", "-D_LARGEFILE_SOURCE", "-Wall"]
   obj.target = "nativeimage"
   obj.source = bld.glob("src/*.cc")
-  obj.uselib = ['OPENCV', './support/cvv8']
+  obj.uselib = ['OPENCV']
