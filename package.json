@@ -1,0 +1,10 @@
+{ "name": "nativeimage"
+ , "description":  "Some fast image processing stuff. Pretty specific to my own usecases. Not what you're looking for."
+ , "version":  "0.0.1"
+ , "author": "Aldo Bucchi <aldo.bucchi@gmail.com>"
+ , "scripts": {
+   "preinstall": "node-waf configure build"
+ }
+ , "engines": { "node": ">= 0.4.2" }
+ , "main": "./build/default/nativeimage.node"
+}
